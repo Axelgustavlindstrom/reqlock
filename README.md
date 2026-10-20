@@ -28,7 +28,7 @@ python -m pip install -e .
 ## Usage
 
 ```bash
-reqlock requirements.lock requirements.in
+reqlock requirements.lock --in requirements.in
 ```
 
 Add `--strict` to treat missing hashes as errors.
@@ -36,11 +36,10 @@ Add `--strict` to treat missing hashes as errors.
 ## Project structure
 
 ```
-reqlock/
-├── README.md
-├── pyproject.toml
-├── reqlock.py
-└── tests/
+README.md
+pyproject.toml
+reqlock.py
+tests/
     └── test_reqlock.py
 ```
 
